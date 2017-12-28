@@ -1,0 +1,12 @@
+body {
+  color: white;
+}
+
+.banner {
+  background-image: url("../images/moto.jpeg");
+}
+
+.logo {
+  background-color: black;
+  background-size: cover;
+}
