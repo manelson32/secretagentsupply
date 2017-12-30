@@ -1,12 +1,30 @@
+html {
+  font-size: 18px;
+}
+
+
 body {
-  /*color: white;*/
+  color: white;
+  font-family: Helvetica, sans-serif;
 }
 
 .banner {
   background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  max-height: 25rem;
 }
 
 .logo {
   background-color: black;
-  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 1.5rem;
+
+}
+.logo span {
+  font-size: 1rem;
+  
 }
