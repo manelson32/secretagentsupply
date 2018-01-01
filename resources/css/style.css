@@ -140,3 +140,27 @@ nav ul {
   text-align: left;
   font-weight: bold;
 }
+
+.tablet-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+
+  .tablet-menu {
+    display: block;
+    text-align: center;
+  }
+
+  .item.three {
+    display: none;
+  }
+
+  .item {
+    width: 47%;
+
+  }
+}
