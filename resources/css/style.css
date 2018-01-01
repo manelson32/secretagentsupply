@@ -5,7 +5,6 @@ html {
 
 body {
   color: white;
-
 }
 
 .box {
@@ -26,8 +25,8 @@ body {
 .logo img {
   max-height: 1.5rem;
   padding: 0 1rem 0 0.5rem;
-
 }
+
 .logo span {
   font-size: 1rem;
   padding: 0.66rem 0;
@@ -47,12 +46,11 @@ body {
   position: relative;
   top: 9rem;
   padding: 2rem 3rem;
-
 }
+
 .news h4 {
   font-size: 1rem;
   padding: 0.25rem;
-
 }
 
 .news h2 {
@@ -65,8 +63,8 @@ body {
 
 nav {
   background-color: firebrick;
-
 }
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -79,7 +77,6 @@ nav ul {
   display: flex;
   margin-top: 3rem;
   justify-content: space-between;
-
 }
 
 .item {
@@ -129,7 +126,6 @@ nav ul {
 
 .footer {
   margin-top: 4rem;
-
   background-color: black;
 }
 
@@ -137,7 +133,7 @@ nav ul {
   display: flex;
   height: 10rem;
   align-items: center;
-  text-align: left;
+
   font-weight: bold;
 }
 
@@ -161,6 +157,59 @@ nav ul {
 
   .item {
     width: 47%;
+  }
+}
 
+@media only screen and (max-width:470px) {
+  .logo span {
+    display: none;
+  }
+
+  .logo img {
+    margin: 0 auto;
+  }
+
+  .banner {
+    height: 15rem;
+  }
+
+  .news {
+    background-color: black;
+    font-weight: bold;
+    width: 20rem;
+    position: relative;
+    top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .news h4 {
+    font-size: 0.77rem;
+    padding: 0.25rem;
+  }
+
+  .news h2 {
+    font-size: 1rem;
+  }
+
+  .item {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .item.two {
+    display: none;
+  }
+
+  .info {
+    display: block;
+  }
+
+  .secret {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  .footer .box {
+    justify-content: center;
   }
 }
